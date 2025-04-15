@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <title>Don lechero</title>
+    </head>
+
+<body>
+
+                                            <!-- Barra de navegación -->
+    <div = class="container">
+        <nav class="navbar" style="background-color:rgb(255, 255, 255);" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/leche_860x860.png" alt="Logo" width="58" height="58" class="d-inline-block align-text">
+                    Don lechero
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Contactos</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    
+    
+    <!-- Texto de bienvenida -->
+    <div>
+        <div = class="container">
+            <h3><b>Bienvenid@ a Don lechero, donde encontrarás los mejores lacteos y leches de la zona.</b></h3>
+            <style>
+                b{
+                    background-color:rgb(255, 255, 255);
+                    text-align: center;
+                    padding-left: 0cm;
+                }
+            </style>
+        </div>
+    <!-- Carrusel de 3 imagenes -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/granja_626x348.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/botellaLeche_512x512.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/queso_512x512.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+    
+    <!-- Columnas y filas para añadir cards de los productos -->
+        <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/botellaLeche_512x512.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Leche de vaca</h5>
+                    <p class="card-text">Leche 100% natural, recién ordeñada.
+                        Proveniente de vacas sanas y bien cuidadas.
+                        Ideal para consumo diario. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Disponible en formato de 1L, 2L y 5L</li>
+                    <li <button type="button" class="btn btn-primary">Añadir al carrito</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/queso_512x512.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Queso de cabra</h5>
+                    <p class="card-text">Queso fresco hecho con leche de cabra 100% natural.
+                        Elaborado de forma artesanal, sin conservantes.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Disponible en formato de 1K, 3K y 5K</li>
+        
+                    <li <button type="button" class="btn btn-primary">Añadir al carrito</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/caja_610x640.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pack leche y queso</h5>
+                    <p class="card-text">Disfruta de este gran pack de leche y queso.
+                        Contiene un queso de cabra de 3K y dos botellas de leche de vaca de 2L.
+                    </p>
+                </div>
+        
+                    <li <button type="button" class="btn btn-primary">Añadir al carrito</button></li>
+                </ul>
+            </div>
+        </div>
+    <!-- Formulario para dejar una reseña -->
+        <div class="card">
+            <div class="card-header">Dejanos tu opinión!! </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                    <label for="txt_nombre" class="form-label">Ingresa tú nombre: </label>
+                    <input type="text" class="form-control" id="txt_nombre" aria-describedby="txt_nombre_help">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txt_reseña" class="form-label">Escribe tu reseña </label>
+                        <input type="text" class="form-control" id="txt_reseña" aria-describedby="txt_reseña_help"> 
+    </div>
+
+
+
+
+    </div>
+</body>
+</html>
